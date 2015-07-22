@@ -6,7 +6,7 @@
 
   <!-- Meta information about our html document -->
   <head>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <!-- Defines the character set to use in the document -->
     <meta charset="utf-8">
 
@@ -23,7 +23,7 @@
 
   <!-- Defines the page content - e.g., what the end user sees -->
   <body>
-
+    <section class="top">
     <!-- A header tag and element -->
     <h1>This is an Awesome header</h1>
 
@@ -33,13 +33,16 @@
 
     <!-- Use an ID to identify actual unique elements -->
     <h4 id="header-primary">This is an h4</h4>
-
+   </section>
     <!-- Hierarchy -->
-    <div>
-      <p>(INSIDE) We are drowning in information, while starving for wisdom. The world henceforth will be run by synthesizers, people able to put together the right information at the right time, think critically about it, and make important choices wisely.</p>
+   <section class="bottom">
+    <div class="inside">
+      <p class="insideParagraph"><span>(INSIDE)</span> We are drowning in information, while starving for wisdom. The world henceforth will be run by synthesizers, people able to put together the right information at the right time, think critically about it, and make important choices wisely.
+      <br><br><img src="http://img07.deviantart.net/d900/i/2010/246/4/e/the_neural_network_by_rajasegar-d2xx3w9.jpg"></p>
     </div>
-
-    <p>(OUTSIDE) You are capable of more than you know. Choose a goal that seems right for you and strive to be the best, however hard the path. Aim high. Behave honorably. Prepare to be alone at times, and to endure failure. Persist! The world needs all you can give.</p>
-
+    <div class="outside">
+    <p class="oustideParagraph"><span>(OUTSIDE)</span> You are capable of more than you know. Choose a goal that seems right for you and strive to be the best, however hard the path. Aim high. Behave honorably. Prepare to be alone at times, and to endure failure. Persist! The world needs all you can give.<br><br><img src="http://www.artinaid.com/wp-content/uploads/2013/02/Galaxia-y-Espacio-Exterior.jpg"></p>
+    </div>
+   </section>
   </body>
 </html>
